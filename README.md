@@ -96,7 +96,7 @@ Puedes agregar un dominio personalizado si tienes uno.
 
 ## 🐛 Informes de Errores y Sugerencias
 
-**¿Encontraste un error? ¿Tienes una idea?** Háznoslo saber [aquí](../../issues).
+**¿Encontraste un error? ¿Tienes una idea?** Házmelo saber [aquí](../../issues).
 
 **NOTA:** __NO__ ejecutes `lovymc.py` directamente. Sigue las instrucciones.
 
