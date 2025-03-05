@@ -54,7 +54,6 @@ Abre `lovymc.py` y edita los valores según la siguiente clave:
 
 * **2)** `RICHMESSAGE`
 RichMessage le permite insertar variables como la dirección IP del cliente, la ubicación, el ASN, etc. para el mensaje de Crashbrowser. <br>
-Simplemente inserte cualquier cosa en la siguiente tabla y la reemplazará respectivamente. <br>
 
 | Valores      | Descripción |
 |--------------|-------------|
