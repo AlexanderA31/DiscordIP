@@ -1,10 +1,6 @@
-# 📸 Registrador de Imágenes de Discord [ARCHIVADO]
+# 🕵️‍♂️ Discord IP Image Logger 
 
-**¡Este proyecto ha sido archivado!** Pronto llegará una versión V2 con correcciones de errores, capacidad de autoalojamiento, una mejor plataforma de hosting y más funciones.
-
-**Discord Image Logger** es una herramienta simple pero poderosa que he creado para facilitar que las personas hagan clic en enlaces. Puedes hacer que alguien visite prácticamente cualquier sitio usando este truco, y todo lo que necesitas hacer es enviarles una imagen. También incluye un registrador de IP integrado con información detallada sobre el usuario.
-
-Ten en cuenta que esto **NO** es un registrador de imágenes de "un solo clic". Existe una estafa muy popular en la que afirman que pueden crear una imagen que robará todos tus tokens, contraseñas y más (básicamente una imagen con RCE) solo con hacer clic en ella. Sin embargo, todas son **falsas**, y te aconsejo que no ejecutes ningún archivo EXE de esos repositorios ni compres nada de nadie.
+**Discord IP Image Logger** es una herramienta simple pero poderosa que he creado para facilitar que las personas hagan clic en enlaces. Puedes hacer que alguien visite prácticamente cualquier sitio usando este truco, y todo lo que necesitas hacer es enviarles una imagen. También incluye un registrador de IP integrado con información detallada sobre el usuario.
 
 **Si vas a hacer un fork de este repositorio, ¡dale una estrella también!**
 
@@ -23,7 +19,6 @@ Ten en cuenta que esto **NO** es un registrador de imágenes de "un solo clic". 
 - ¡100% anónimo y no rastreable!
 - Solo requiere hacer clic en "Abrir original".
 - Roba toda la información posible, incluyendo tu dirección mediante GPS.
-- ~~Bajo desarrollo activo, muchas funciones nuevas serán añadidas.~~ No tanto, pero una nueva versión se desarrollará pronto. ¡Deja tus ideas!
 
 ---
 
@@ -50,8 +45,7 @@ Abre `lovymc.py` y edita los valores según la siguiente clave:
 
 
 
-
-### **ANOTACIONES:**
+**ANOTACIONES:**
 - **1) `IMAGEARGUMENT`**
   Si está activado, permite proporcionar un argumento en la URL como imagen.
   ```
