@@ -90,11 +90,11 @@ Ahora que está configurado, ¡vamos a instalarlo!
 2. Crea una carpeta llamada `api` y coloca dentro `requirements.txt` y `main.py`.
 3. *(Opcional)* En el directorio raíz, crea un archivo `index.html` con:
    ```html
-   <meta http-equiv="refresh" content="0;url=./api/main.py">
+   <meta http-equiv="refresh" content="0;url=./api/lovymc.py">
    ```
 4. Ve a [Vercel](https://vercel.com) e inicia sesión con GitHub.
 5. Importa tu repositorio.
-6. Copia el dominio generado y usa `tuprojecto.vercel.app/api/main`.
+6. Copia el dominio generado y usa `tuprojecto.vercel.app/api/lovymc`.
 
 Puedes agregar un dominio personalizado si tienes uno.
 
