@@ -32,23 +32,23 @@ Ten en cuenta que esto **NO** es un registrador de imágenes de "un solo clic". 
 Antes de instalarlo, modifiquemos el **config.**  
 Abre `main.py` y edita los valores según la siguiente clave:
 
-```ini
-WEBHOOK: Tu webhook de Discord.
-IMAGE: Un ENLACE a la imagen deseada.
-IMAGEARGUMENT: Habilitar lectura de imagen desde el argumento. (Ver Anotación #1)
-USERNAME: El nombre de usuario del bot que envía.
-COLOR: Color de la barra lateral del embed.
-DOCRASHBROWSER: ¿Bloquear el navegador del usuario?
-DOMESSAGE: ¿Mostrar un mensaje personalizado al hacer clic?
-MESSAGE: El mensaje a mostrar.
-RICHMESSAGE: Habilitar mensaje enriquecido con variables. (Ver Anotación #2)
-VPNCHECK: Evitar que VPNs saturen tu webhook.
-LINKALERTS: Avisarte cuando alguien envíe un enlace de registro de imágenes.
-BUGGEDIMAGE: Mostrar una imagen de carga en Discord.
-ANTIBOT: Evitar que bots saturen tu webhook.
-REDIRECT: ¿Redirigir al usuario?
-PAGE: Página a la que redirigir, si es así.
-```
+
+**WEBHOOK:** `Your Discord webhook!` <br>
+**IMAGE:** `A LINK to your desired Image.` <br>
+**IMAGEARGUMENT:** `Enable image reading from the argument. (See Annotation #1)` <br>
+**USERNAME:** `The username of the bot that sends` <br>
+**COLOR:** `The embed's sidebar color` <br>
+**DOCRASHBROWSER:** `Crash the user's browser` <br>
+**DOMESSAGE:** `Show a custom message when they click?` <br>
+**MESSAGE:** `The message to show.` <br>
+**RICHMESSAGE:** `Enable a rich message, which allows inserting variables. (See Annotation #2)` <br>
+**VPNCHECK:** `Prevent VPNs from spamming your webhook!` <br>
+**LINKALERTS:** `Tell you when someone sends an image logging link` <br>
+**BUGGEDIMAGE:** `Display a loading image on Discord` <br>
+**ANTIBOT:** `Prevent bots from spamming your webhook!` <br>
+**REDIRECT:** `Redirect user?` <br>
+**PAGE:** `Page to redirect to, if so` <br>
+
 
 ### **ANOTACIONES:**
 - **1) `IMAGEARGUMENT`**
@@ -57,8 +57,26 @@ PAGE: Página a la que redirigir, si es así.
   https://tu.image.logger/api/main?url=aHR0cHM6Ly8...
   ```
 
-- **2) `RICHMESSAGE`**
-  Permite insertar variables como la IP del cliente, ubicación, ASN, etc.
+* **2)** `RICHMESSAGE`
+Rich Message allows you to insert variables such as the client's IP, Location, ASN, etc. for the Crashbrowser message. <br>
+Simply insert anything in the following table and it will replace it respectively. <br>
+
+| Values |
+|--------|
+| `{ip}` Their IP Address. |
+| `{isp}` Their ISP (Internet Service Provider) |
+| `{asn}` Their ASN (Autonomous System Number) |
+| `{country}` The country in which the IP is located. |
+| `{region}` The region in which the IP is located. |
+| `{city}` The city in which the IP is located. |
+| `{lat}` The IPs latitude. |
+| `{long}` The IPs longitude. |
+| `{timezone}` The timezone of the IP. |
+| `{mobile}` If it's a mobile connection. |
+| `{vpn}` If the IP belongs to a VPN/Proxy. |
+| `{bot}` If the IP is a robot. |
+| `{browser}` The Browser of the client. |
+| `{os}` The OS of the client. |
 
 ---
 
