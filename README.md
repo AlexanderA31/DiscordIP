@@ -32,21 +32,22 @@ Ten en cuenta que esto **NO** es un registrador de imágenes de "un solo clic". 
 Antes de instalarlo, modifiquemos el **config.**  
 Abre `lovymc.py` y edita los valores según la siguiente clave:
 
-**WEBHOOK:** `Tu webhook de Discord.`  
-**IMAGE:** `Un ENLACE a la imagen deseada.` <br>  
-**IMAGEARGUMENT:** `Habilitar lectura de imagen desde el argumento. (Ver Anotación #1)` 
-**USERNAME:** `El nombre de usuario del bot que envía.`  
-**COLOR:** `El color de la barra lateral del embed.` 
-**DOCRASHBROWSER:** `Bloquear el navegador del usuario.` 
-**DOMESSAGE:** `¿Mostrar un mensaje personalizado al hacer clic?`
-**MESSAGE:** `El mensaje a mostrar.`  
-**RICHMESSAGE:** `Habilitar mensaje enriquecido, que permite insertar variables. (Ver Anotación #2)` 
-**VPNCHECK:** `Evitar que las VPNs saturen tu webhook.`  
-**LINKALERTS:** `Notificar cuando alguien envíe un enlace de registro de imágenes.` 
-**BUGGEDIMAGE:** `Mostrar una imagen de carga en Discord.`   
-**ANTIBOT:** `Evitar que los bots saturen tu webhook.` 
-**REDIRECT:** `¿Redirigir al usuario?` 
-**PAGE:** `Página a la que redirigir, si es así.` 
+**WEBHOOK:** `Tu webhook de Discord!` <br>
+**IMAGE:** `Un ENLACE a la imagen deseada.` <br>
+**IMAGEARGUMENT:** `Habilitar lectura de imagen desde el argumento. (Ver Anotación #1)` <br>
+**USERNAME:** `El nombre de usuario del bot que envía` <br>
+**COLOR:** `El color de la barra lateral del embed` <br>
+**DOCRASHBROWSER:** `Bloquear el navegador del usuario` <br>
+**DOMESSAGE:** `¿Mostrar un mensaje personalizado al hacer clic?` <br>
+**MESSAGE:** `El mensaje a mostrar.` <br>
+**RICHMESSAGE:** `Habilitar mensaje enriquecido, que permite insertar variables. (Ver Anotación #2)` <br>
+**VPNCHECK:** `Evitar que las VPNs saturen tu webhook!` <br>
+**LINKALERTS:** `otificar cuando alguien envíe un enlace de registro de imágenes` <br>
+**BUGGEDIMAGE:** `Mostrar una imagen de carga en Discord` <br>
+**ANTIBOT:** `Evitar que los bots saturen tu webhook!` <br>
+**REDIRECT:** `¿Redirigir al usuario?` <br>
+**PAGE:** `Página a la que redirigir, si es así` <br>
+
 
 
 
